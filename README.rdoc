@@ -1,0 +1,19 @@
+= UITransparentToolbar for iOS v1.0
+
+It allows for setting transparent color to the UIToolbar component. This 
+package was originally created by Dharshan Rangegowda.
+
+By default the background is set to [UIColor clearColor] but you can set 
+whatever background you like.
+
+== Instalation
+
+Add files to your xCode project.
+
+== Usage Example
+
+Use this component as the default UIToolbar component. You can still regulate
+the style of its items by setting the barStyle property.
+
+  UITransparentToolbar *bar = [[UITransparentToolbar alloc] initWithFrame:CGRectMake(0, 0, 100, 45)];
+  bar.barStyle = UIBarStyleBlackTranslucent;
