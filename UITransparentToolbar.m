@@ -18,7 +18,7 @@
 }
 
 // Set properties to make background translucent.
-- (void) applyTranslucentBackground
+- (void)applyTranslucentBackground
 {
     self.backgroundColor = [UIColor clearColor];
     self.opaque = NO;
@@ -26,7 +26,7 @@
 }
 
 // Override init.
-- (id) init
+- (id)init
 {
     self = [super init];
     [self applyTranslucentBackground];
@@ -34,7 +34,7 @@
 }
 
 // Override initWithFrame.
-- (id) initWithFrame:(CGRect) frame
+- (id)initWithFrame:(CGRect) frame
 {
     self = [super initWithFrame:frame];
     [self applyTranslucentBackground];
